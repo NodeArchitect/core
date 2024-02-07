@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "core-module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js",
-    "prepare": "husky"
+    "ts": "npx tsc",
+    "dev": "node watcher.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/NodeArchitect/NArch-core#readme",
   "devDependencies": {
-    "husky": "^9.0.10"
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
   }
 }

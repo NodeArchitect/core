@@ -2,10 +2,13 @@
 .vscode
 .DS_Store
 coverage
+build
+built
 dist
 node_modules
 npm-debug.log
 package-lock.json
+pnpm-lock.yaml
 backup
 # Build and Release Folders
 bin-debug/
