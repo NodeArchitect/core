@@ -1,5 +1,12 @@
-.idea/
-
+.idea
+.vscode
+.DS_Store
+coverage
+dist
+node_modules
+npm-debug.log
+package-lock.json
+backup
 # Build and Release Folders
 bin-debug/
 bin-release/
@@ -18,8 +25,5 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-node_modules
-build
 
 .env
