@@ -1,0 +1,26 @@
+{
+  "name": "narch-core",
+  "version": "1.0.0",
+  "description": "core-module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeArchitect/NArch-core.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "adriendev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeArchitect/NArch-core/issues"
+  },
+  "homepage": "https://github.com/NodeArchitect/NArch-core#readme",
+  "devDependencies": {
+    "husky": "^9.0.10"
+  }
+}
